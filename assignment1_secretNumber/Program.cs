@@ -10,7 +10,7 @@ namespace assignment1_secretNumber {
 
             Random randomerare = new Random();
             int slump_tal = randomerare.Next(1,101);
-            Console.Write(slump_tal);
+            Console.Write("Det slumpade nummeret är: {0}", slump_tal);
 
             Console.ReadLine();
         }
