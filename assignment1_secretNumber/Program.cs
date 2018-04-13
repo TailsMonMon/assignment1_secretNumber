@@ -8,12 +8,12 @@ namespace assignment1_secretNumber {
     class Program {
         static void Main(string[] args) {
 
-            //      DEFINITIONS AND MAKING OF RANDOMERARE
+            //      DEFINING DATA & MAKING OF RANDOMERARE
             Random randomerare = new Random();
             int slumpTal = randomerare.Next(1,101);
             //Console.WriteLine("Det slumpade talet är: {0}", slumpTal); // controll of the random number.
-            int gissning = 0;   // Defines the variable before the do-while-loop.
-            int antalGissningar = 0;    // Defines and starts with 0 attemps.
+            int gissning = 0;   // User's guess
+            int antalGissningar = 0;    // Number of guessing
 
             //      INTRO
             Console.WriteLine("=== Gissa nummeret ===");
